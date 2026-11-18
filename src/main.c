@@ -14,6 +14,7 @@ int main(void)
 
     while (true) {
         // TODO: Read inputs and update the game and its outputs.
+        lights_update();
         sleep_ms(10);
     }
 }
